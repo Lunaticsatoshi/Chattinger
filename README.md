@@ -23,5 +23,7 @@ git clone https://github.com/Lunaticsatoshi/Chattinger.git
 ```
 cd /Chattinger
 
+Flutter pub get
+
 Flutter run
 ```
