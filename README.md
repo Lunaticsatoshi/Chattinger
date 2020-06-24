@@ -18,7 +18,7 @@ A New way for people to meet strangers online and discuss their ends out.
 
 ## Setup
 
-git clone 
+git clone https://github.com/Lunaticsatoshi/Chattinger.git
 
 ```
 cd /Chattinger
