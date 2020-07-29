@@ -42,7 +42,7 @@ class _FirstScreenState extends State<FirstScreen>
                 image: AssetImage('assets/images/background.jpg'),
                 fit: BoxFit.cover,
                 ),
-            color: Color(0xFFF001117).withOpacity(0.7),
+            color: Color(0xFFF001117).withOpacity(0.5),
           ),
           child: Center(
             child: Column(

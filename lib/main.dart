@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Chattinger',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        primaryColor: Color(0xFFB71C1C),
         scaffoldBackgroundColor: Color(0xff1F1F1F),
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
