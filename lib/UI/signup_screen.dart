@@ -9,6 +9,10 @@ class SignUpScreen extends StatefulWidget {
 }
 
 class _SignUpScreenState extends State<SignUpScreen> {
+
+  TextEditingController userNameController = new TextEditingController();
+  TextEditingController emailController = new TextEditingController();
+  TextEditingController passwordController = new TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -85,7 +89,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   padding: EdgeInsets.symmetric(vertical: 20.0),
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [const Color(0xFFB71C1C), const Color(0xFFD32F2F)],
+                      colors: [
+                        const Color(0xFFB71C1C),
+                        const Color(0xFFD32F2F)
+                      ],
                     ),
                     borderRadius: BorderRadius.circular(25.0),
                   ),

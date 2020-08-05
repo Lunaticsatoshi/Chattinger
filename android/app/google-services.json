@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "753649611191",
+    "firebase_url": "https://chattinger-9ac02.firebaseio.com",
+    "project_id": "chattinger-9ac02",
+    "storage_bucket": "chattinger-9ac02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753649611191:android:c1622344a7fbaee50db832",
+        "android_client_info": {
+          "package_name": "com.example.chattinger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753649611191-2sl92l60387ccn7nue4mcbj93nvfg2vs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeC_J6sPd1el6PRTtMxdBAnb9o6pC3KMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753649611191-2sl92l60387ccn7nue4mcbj93nvfg2vs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

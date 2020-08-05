@@ -9,6 +9,10 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+
+  TextEditingController emailController = new TextEditingController();
+  TextEditingController passwordController = new TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,6 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(color: Colors.white),
                       )),
+                      controller: emailController,
                 ),
                 TextField(
                   decoration: InputDecoration(
@@ -48,6 +53,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         borderSide: BorderSide(color: Colors.white),
                       )),
                   obscureText: true,
+                  controller: passwordController,
                 ),
                 SizedBox(
                   height: 8.0,
